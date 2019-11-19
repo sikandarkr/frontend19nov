@@ -1,0 +1,133 @@
+.a{
+    background-color: red;
+}
+.register-page{
+    width:50% !important;
+    background-color:white;
+    box-shadow: 0.1px 0.1px 0.1px 0.1px #888888; 
+}
+.register-form{
+   margin-left:10% !important;
+   margin-right:10% !important;
+   padding-top:5% !important;
+ 
+}
+.spinner-gif{
+    position: absolute;  
+    left: 25%;  
+    right: 25%;  
+    top: 25%;  
+    bottom: 25%;  
+    margin: auto;  
+    height:15% !important;
+    width:15% !important;
+}
+
+.register-container{
+    margin-left:10% !important;
+    margin-right:10% !important;
+    background-color:#D3D3D3;
+    border-radius: 2px !important;
+   
+}
+.nothing{
+    margin-bottom: 20px !important;
+    padding-top:20px !important;
+}
+
+.submit-form{
+    margin-bottom:20px !important;
+}
+.create-account-title{
+    color:#459976 !important;
+    margin-top:4% !important;
+}
+.navbar-top{
+    background-color: #669999;
+    padding:1.5% !important;
+}
+.register{
+    background-color: blue;
+    height: 100% !important;
+    width:100% !important;
+}
+
+
+/* .nav-dropdown{
+    margin-left:5% !important;
+} */
+.input_login_password{
+    margin-left:1% !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 5px !important;
+}
+.login-submit{
+    background-color: #85adad;
+    color:white !important;
+    border-radius: 5px !important;
+    border: none !important;
+    border-color:gray !important;
+}
+.input-login{
+    border: none !important;
+    outline: none !important;
+    border-radius: 5px !important;
+}
+
+.nav-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+::-webkit-input-placeholder {
+    font-style: normal;
+    text-transform: capitalize;
+    padding-left:20px !important;
+}
+::-webkit-input-placeholder:focus {
+    font-style: normal;
+    text-transform: capitalize;
+    padding-left:20px !important;
+    outline: none;
+}
+
+
+:-moz-placeholder { /* older Firefox*/
+    font-style: normal;
+    text-transform: capitalize;
+    padding-left:20px !important;   
+}
+
+:-moz-placeholder:focus { /* older Firefox*/
+font-style: normal;
+text-transform: capitalize;
+padding-left:20px !important;   
+outline: none !important;
+}
+
+:-moz-placeholder { /* Firefox 19+ */ 
+    font-style: normal; 
+    text-transform: capitalize;
+    padding-left:20px !important; 
+} 
+:-moz-placeholder :focus{ /* Firefox 19+ */ 
+font-style: normal; 
+text-transform: capitalize;
+padding-left:20px !important; 
+outline: none !important;
+} 
+:-ms-input-placeholder { 
+    font-style: normal;
+    text-transform: capitalize;
+    padding-left:20px !important;
+    
+}
+:-ms-input-placeholder :focus{ 
+font-style: normal;
+text-transform: capitalize;
+padding-left:20px !important;
+outline: none !important;
+
+} 

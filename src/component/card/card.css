@@ -1,0 +1,182 @@
+.card-container{
+    height:auto;
+    width:100%;
+    /* background-color: blue; */
+    display:flex !important;
+    flex-direction: column;
+    margin-top:5% !important;
+    border-radius: 5px !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.message-loading{
+    text-align: center !important;
+    
+}
+
+.user-card-points{
+    display:flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:1% !important;
+    margin-right:1% !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+.online{
+    color: green !important;
+}
+.profile{
+    margin-left:40% !important;
+    height:50% !important;
+    width:50% !important;
+    margin-top:2% !important;
+    
+}
+.img-size{
+    height:100px;
+    width:50%;
+    border-radius: 50%;
+}
+.card-profile-name{
+    text-align: center;
+}
+.domain{
+    text-align: center;
+    margin-top:-5% !important;
+}
+.chat-btn{
+    text-align: center;
+    margin-top:5% !important;
+}
+
+/* .chatbox {
+    position:absolute;
+    left:25% !important;
+    right:25% !important;
+    top:25% !important;
+    bottom:25% !important;
+    border-radius: 2px !important;
+    background-color: blue;
+  }
+  backup for modal
+   */
+   
+   
+/* chat box design ################*/
+.chatbox {
+    position:fixed;
+    left:50% !important;
+    right:15% !important;
+    /* height:80% !important; */
+    top:30% !important;
+    bottom:30% !important;
+    margin:auto;
+    bottom:0% !important;
+    border-radius: 2px !important;
+    /* justify-content: space-between; */
+    background-color: white !important;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0 0 2px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+}
+.chat-head{
+    flex:1;
+}
+.chatbox-user-name{
+    color:white !important;
+}
+.chat-header{
+    background-color: #5c8a8a !important;
+    display:flex !important;
+    justify-content: space-between !important;
+  }
+.chat-image{
+    padding-top:1% !important; 
+    padding-bottom: 1% !important;
+    margin-left:10px;
+    border-radius: 50%;
+}
+.nav-profile-image{
+    border-radius: 50%;
+}
+.chat-message-box{
+    flex:5;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.chat-window-header-right{
+      display:flex;
+      flex-direction: row !important;
+      padding-top:3% !important;
+      padding-top:3% !important;
+      margin-right:10px !important;
+  }
+  .chat-footer{
+    display: flex !important;
+    flex-direction: row;
+    width:100% !important;
+    border-top: 1px solid gray;
+}
+.chat-input-container{
+    width:80% !important;
+}
+.chat-input-field{
+    width:100% !important;
+    height:100% !important;
+    border:none !important;
+}
+.chat-input-field:focus {
+    outline: none;
+}
+  
+.chat-message-send-icon-container{
+    display:flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    width:20% !important;
+}
+.chat-attachment-icon{
+    font-size: 1.5rem !important;
+    margin-top:10% !important;
+}
+.chat-send-icon{
+    font-size: 1.5rem !important;
+    margin-top:10% !important;
+    margin-right:5% !important;
+}
+.auth-user-message{
+    height:auto;
+    width:90% !important;
+    overflow-x:hidden !important;
+    margin-left:10% !important;
+    margin-right:2% !important;
+    background-color: #d1e0e0 !important;
+    margin-top:2px !important;
+    padding-left:5px !important;
+    border-radius: 3px !important;
+    
+}
+.guest-user-message{
+    height:auto;
+    width:auto !important;
+    overflow-x:hidden !important;
+    margin-right:10% !important;
+    margin-left:1% !important;
+    background-color: #339966 !important;
+    color:white;
+    margin-top:5px !important;
+    padding-left:5px !important;
+    padding-bottom:5px !important;
+    border-radius: 3px !important;
+}
+.close-chat-box-icon:hover{
+    cursor: pointer;
+}
+.chat-name{
+    font-weight: bold;
+}
