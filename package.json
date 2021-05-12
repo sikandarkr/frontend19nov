@@ -36,7 +36,7 @@
     "redux-saga": "^1.0.3",
     "redux-thunk": "^2.3.0",
     "sweetalert": "^2.1.2",
-    "trim": "0.0.1"
+    "trim": "0.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
